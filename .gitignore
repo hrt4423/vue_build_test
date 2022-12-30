@@ -38,7 +38,8 @@ README.md
 vue.config.js 
 
 /public/
-/src/
+#/src/
+/www/
 
 /.monaca/*
 
