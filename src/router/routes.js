@@ -1,10 +1,22 @@
 import HomeView from '../views/HomeView.vue'
+import CareView from '@/views/CareView.vue'
+import ShopView from '@/views/ShopView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/care',
+    name: 'care',
+    component: CareView
+  },
+  {
+    path: '/shop',
+    name: 'shop',
+    component: ShopView
   },
   {
     path: '/about',

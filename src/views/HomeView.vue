@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Character" src="../assets/odebu.png" class="character-image">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -16,3 +16,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.character-image{
+  height:200px;
+}
+</style>
