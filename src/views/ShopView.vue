@@ -1,13 +1,27 @@
 <template>
   <div class="shop">
     <h1>ショップ</h1>
-    <p>ショップ画面</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ShopView'
+  name: 'ShopView',
+
+  data: function () {
+    return {
+      showContent: false
+    }
+  },
+
+  methods: {
+    openModal: function () {
+      this.showContent = true
+    },
+    closeModal: function () {
+      this.showContent = false
+    }
+  }
 }
 </script>
 

@@ -1,6 +1,7 @@
-import HomeView from '../views/HomeView.vue'
-import CareView from '@/views/CareView.vue'
-import ShopView from '@/views/ShopView.vue'
+import HomeView from '@/views/HomeView'
+import CareView from '@/views/CareView'
+import ShopView from '@/views/ShopView'
+import TaskView from '@/views/TaskView'
 
 const routes = [
   {
@@ -17,6 +18,11 @@ const routes = [
     path: '/shop',
     name: 'shop',
     component: ShopView
+  },
+  {
+    path: '/task',
+    name: 'task',
+    component: TaskView
   },
   {
     path: '/about',
