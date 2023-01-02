@@ -1,7 +1,11 @@
 <template>
   <div class="home">
-    <img alt="Character" src="../assets/odebu.png" class="character-image">
+    <img alt="Character" src="@/assets/odebu.png" class="character-image">
     <h1>ホーム画面</h1>
+    <router-link to="/login">
+      ログイン画面へ
+    </router-link>
+
   </div>
 </template>
 

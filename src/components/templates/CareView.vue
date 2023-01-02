@@ -90,6 +90,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'ShopView',
 
@@ -210,7 +211,7 @@ body,html{
   width: 100%;
   height: auto;
   padding-top: 56.25%;
-  background: url(../assets/ringotest.png) no-repeat center;
+  background: url(@/assets/ringotest.png) no-repeat center;
   background-size: cover;
   box-sizing: border-box;
   background-color:#DFDFDF;
